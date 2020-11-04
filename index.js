@@ -17,6 +17,10 @@ Do the following:
 
    HINT: no function required
 */
+var votingAge = 18 
+if (votingAge <= 18 ){
+  console.log(True);
+}
 
 
 
@@ -30,10 +34,12 @@ Do the following:
 
    HINT: no function required
 */
-
-
-
-
+ var age = 27;
+ var year = 1993;
+ if(age==28){
+   let year = 1992
+ }
+ console.log(year)
 
 /*
 Task 1c - Convert Strings to Numbers
@@ -45,7 +51,9 @@ Do the following:
 
    HINT: look up the Number method
 */
-
+var a = "1999";
+var b = parseInt(a);
+document.write(b)
 
 
 
@@ -58,9 +66,9 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
-  }
+function multiply(x, y){
+    return x*y;
+  };
 
 
 
@@ -74,8 +82,8 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+function dogYears(dog, human){
+    return dog*human
 }
 
 
@@ -107,8 +115,16 @@ Use the hungryDog function and feeding requirements below to do the following:
   NOTE: If done correctly, a weight of 15 lbs and age of 1 year would return 0.44999999999999996
 */  
 
-function hungryDog(/*add your code here*/){
-    /*add your code here*/
+function hungryDog({
+ let weight =["0-5", "6-10", "11-15". "11-15", "16-151"];
+ let age = [">1", "<1"]
+ let puppy = [age === >1]
+ let dog = [ age === 1<]
+ let smalldog = multiply(weight * 0.05);
+ let meddog = multiply(weight * 0.04);
+ let largedog = multiply(weight * 0.03);
+ let xlargedog = multiply(weight * 0.02);
+
   }
 
 
@@ -133,7 +149,7 @@ Use the game function below to do the following:
 */
 
 function game(user, computer){
-    /*add your code here*/
+    
 }
   
   
